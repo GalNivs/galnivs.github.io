@@ -1,3 +1,11 @@
+---
+title: About
+icon: fas fa-info-circle
+order: 4
+math: true
+
+---
+
 # About Me
 
 Hey there! 👋
