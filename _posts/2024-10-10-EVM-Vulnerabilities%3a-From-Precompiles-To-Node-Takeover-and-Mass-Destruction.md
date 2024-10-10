@@ -267,7 +267,7 @@ We can see the same problematic pattern in [1], which is passed to the `cropped`
 
 ## Bounty and Thanks
 
-I reported the vulnerability through SKALE's HackerOne and after a short triage (+ a very good talk with the relevant team) I received 10,250$ bounty for the three vulnerabilities reported.
+I reported the bugs through SKALE's HackerOne and after a short triage (+ a very good talk with the relevant team) I received 10,250$ bounty for the three vulnerabilities reported.
 
 I would personally like to thank SKALE team for taking the issues very seriously, deploying fast patches and paying a very respectable bug bounty albeit being out of scope for their official bug bounty program on HackerOne, you guys are awesome!
 
