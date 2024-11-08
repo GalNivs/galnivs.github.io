@@ -120,7 +120,7 @@ Digging deeper, I discovered that you could reclaim the funds straight into any 
 
 ![refund_full](/assets/img/refund_full.jpg)
 
-## Thanks and Prologue
+## Thanks and Epilogue
 
 A big, heartfelt thank you to the cashless system company for ghosting all my messages across multiple platforms, despite my multiple (and genuinely friendly!) attempts to reach out. I even offered free consulting on how they could tighten up their system—no response whatsoever.
 
