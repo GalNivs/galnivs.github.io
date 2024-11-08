@@ -43,7 +43,7 @@ Yes, just like that—we found the first flaw! The tech felt like a throwback to
 
 Diving deeper into the code structure, it seemed likely that the wristband ID was composed of some "festival ID" plus a unique identifier. This unique part wasn’t even a full 5 nibbles, as certain characters didn’t use the full range of options.
 
-Even if we stick with that—5 nibbles, or 24 bits (around 16.7 million combinations)—that’s just too limited for a festival that can easily hold 100,000 wristbands.
+Even if we stick with that—5 nibbles, or 20 bits (around one million combinations)—that’s just too limited for a festival that can easily hold 100,000 wristbands.
 
 In practice, almost every second "random" attempt to modify a code actually yielded a legitimate account. Just like that, we could access other users’ accounts and view their action logs.
 
