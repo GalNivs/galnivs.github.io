@@ -240,7 +240,7 @@ ETH_REGISTER_PRECOMPILED( readChunk )( bytesConstRef _in ) {
 
 **Vulnerability 2 - Directory Traversal**
 
-First and foremost [1] shows a native code that directly uses `filename` which comes from caller input, one might send a `filename` with directory traversal (e.g. `"../../../../../../etc/password"`{: .filepath}) and read/write out of its contract's folders.
+First and foremost [1] shows a native code that directly uses `filename` which comes from caller input, one might send a `filename` with directory traversal (e.g. `"../../../../../../etc/passwd"`{: .filepath}) and read/write out of its contract's folders.
 Using SKALE's IMA SDK I was able to create a test node locally and successfully exploit the issue.
 
 It was later brought to my attention by SKALE team that in production chains, the default config includes a key-value that restricts access to the fs write functionality for the chain owner only (`"restrictAccess": ["fs"]`).
